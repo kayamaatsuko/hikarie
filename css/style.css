@@ -1,0 +1,140 @@
+@import url(sanitize.css);
+/* CSS Document */
+/*********************
+clearfix 
+************************/
+.cf {
+	zoom: 1;
+}
+.cf:before, .cf:after {
+	content: "";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}/* CSS Document */
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+html {}
+body {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	min-height: 100%;
+	background-color: #fff;
+	text-align: center;
+}
+header{
+   width: 100%;
+   max-width: 1200px; 
+}
+.headinner{
+
+}
+.headerLogo{
+	float: left;
+	margin-top: 23px;
+	margin-left: 22px;
+	width: 140px;
+	height: 42px;
+}
+.headernenu{
+	float: right;
+}
+.headinner .headernenu ul{
+	/*width: 336px;*/
+	margin: 23px 0 0 0;
+}
+.headinner .headernenu ul li{
+	display: inline;
+	margin:0 25px 14px 0;
+	color: #d3a000;
+	font-size: 13px;
+	font-family: YuGothicStd;
+	list-style-type: none;
+}
+.headinner .headernenu ul li:last-child{
+	margin-right: 17px;
+}
+.headinner .headernenu .search{
+	margin: 14px 17px 15px 0;
+	width: 196px;
+	float: right;
+}
+.headermenu {
+	background-color: #e2ca6d;
+	width: 100%;
+	height: 56px;
+}
+.headermenuinner{
+	width: 1080px;
+	margin: 0 auto;
+	text-align: center;
+}
+.headermenuText{
+	display: inline-block;
+	padding-right: 51px;
+	margin-top: 13px;
+	vertical-align: middle;
+}
+.headermenuJa{
+	font-size: 10px;
+	font-family: YuGo;
+	color: #66502b;
+	margin-bottom: 8px;
+}
+.headermenuEn{
+	font-size: 16px;
+	font-family: Gotham-Medium;
+	font-weight: bold;
+	color: #66502b;
+}
+#topimg {
+	
+}
+.topimgBotton img{
+	position: relative;
+}
+.pagenavi{
+	
+}
+.pagenavi ul{
+}
+.pagenavi ul li{
+	float: right;
+	margin-right: 6px;
+	list-style-type: none;
+}
+.pagenavi ul li:last-child{
+	margin: 0;
+}
+.leftya{
+	position: absolute;
+	top: 600px;
+	left :1300px;
+	z-index: 10;
+}
+.rightya{
+	position: absolute;
+	top: 600px;
+	left :1354px;
+	z-index: 10;
+}
+nav{
+	position: relative;
+}
+nav img{
+	
+}
+nav .topMenu{
+	position: absolute;
+	top :72px;
+	left :292px;
+}
+nav .topMenu .topMenuBox01{
+	float: left;
+	margin-right: 10px;
+}
