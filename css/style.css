@@ -149,6 +149,7 @@ nav .topMenu .topMenuBox01 p {
 
 #information {
 	margin-top: 86px;
+	position: relative;
 }
 .inforTitle {
 	font-family: Gotham-Medium;
@@ -161,18 +162,28 @@ nav .topMenu .topMenuBox01 p {
 	border: 1px #c5c5c5 solid;
 	border-radius: 3px;
 	margin: 38px auto 70px;
+	padding: 0 25px ;
 }
 #information dl dt{
+	position: absolute;
+	/*width: 10em;*/
+	width: 90px;
 	float: left;
-	margin-left: 25px;
+	/*margin-left: 25px;*/
 	padding-bottom: 24px;
+	border-bottom: 1px #c5c5c5 dotted;
 	padding-top: 27px;
+	text-align: left;
 	color: #c99a00;
 	font-size: 12px;
 	font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
 }
+#information dl dt.last{
+	border-bottom: none;
+}
 #information dl dd{
-	margin-left: 137px;
+	/*padding-left: 10em;*/
+	padding-left: 90px;
 	padding-bottom: 24px;
 	padding-top: 27px;
 	text-align: left;
@@ -180,5 +191,7 @@ nav .topMenu .topMenuBox01 p {
 	font-size: 12px;
 	font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
 	border-bottom: 1px #c5c5c5 dotted;
-	
+}
+#information dl dd:last-child{
+	border-bottom: none;
 }
