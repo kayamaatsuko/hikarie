@@ -132,9 +132,17 @@ nav img{
 nav .topMenu{
 	position: absolute;
 	top :72px;
-	left :292px;
+	left :344px;
 }
 nav .topMenu .topMenuBox01{
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
+}
+nav .topMenu .topMenuBox01 p {
+	color: #272727;
+	font-family: "游ゴシック体 Std";
+	font-size: 14px;
+	text-align: center;
+	width: 98px;
+	margin-top: 18px;
 }
