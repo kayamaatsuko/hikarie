@@ -132,7 +132,7 @@ nav img{
 nav .topMenu{
 	position: absolute;
 	top :72px;
-	left :344px;
+	left :120px;
 }
 nav .topMenu .topMenuBox01{
 	float: left;
@@ -195,3 +195,188 @@ nav .topMenu .topMenuBox01 p {
 #information dl dd:last-child{
 	border-bottom: none;
 }
+
+footer {
+	width: 1200px;
+	/*height: 425px;*/
+	background-color: #c7b299;
+	padding-bottom: 20px;
+}
+footer .footerinner {
+	padding: 40px 60px;
+	overflow: hidden;
+	width: 1080px;
+	display:flex;
+}
+footer .footerinner .footerLeft{
+	/*float: left;*/
+	width: 315px;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	text-align: left;
+}
+footer .footerinner .footerLeft .footerlogo{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+footer .footerinner .footerLeft .footershopadd{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #fff;
+	font-size: 12px;
+	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
+}
+footer .footerinner .footerinnerinfoTitle{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #3c3c3c;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
+}
+footer .footerinner .footerLeft .footerinnerinfoItem{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #3c3c3c;
+	font-size: 13px;
+	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
+}
+footer .footerinner .footerLeft .footerinnerinfoNote{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #fff;
+	font-size: 19px;
+	font-family: Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+}
+.footerinnerinfoNoteS{
+	color: #fff;
+	font-size: 12px;
+	font-family: Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+}
+
+
+
+
+
+footer .footerinner .footerCenter{
+	/*float: left;*/
+	width: 234px;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	text-align: left;
+}
+.footerinnerinfoShopHours {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #3c3c3c;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
+}
+footer .footerinner .footerCenter .footerinnerinfoShop{
+	font-size: 13px;
+	color: #3c3c3c;
+	font-weight: bold;
+	font-family: Gotham-Medium,Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+}
+.footerinnerinfoShopTime {
+	font-size: 19px;
+	color: #fff;
+	font-weight: normal;
+	font-family: Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+}
+.footerinnerinfoShopBut {
+	font-size: 11px;
+	color: #414141;
+	font-weight: nomal;
+	font-family:"小塚ゴシック";
+}
+
+
+
+
+
+footer .footerinner .footerRight01Box{
+	width: 184px;
+	margin: 0;
+	padding: 0;
+}
+
+footer .footerinner .footerRight01Box .footerRightTopTitle {
+	margin: 0 0 20px 0;
+	padding: 0;
+	color: #3c3c3c;
+	font-size: 14px;
+	font-family: Gotham-Medium;
+	text-align: left;
+	
+}
+
+footer .footerinner .footerRight .footerRight01Box ul{
+	margin: 0;
+	padding: 0; 
+}
+footer .footerinner .footerRight01Box ul li{
+	list-style-type: none;
+	text-align: left;
+	margin-bottom: 20px;
+	background-image: url(../images/footer/footer-ya.png);
+	margin-bottom: 10px;
+  	margin-left: 0;
+  	padding-left: 16px;
+  	font-size: 13px;
+  	line-height: 13px;
+}
+footer .footerinner .footerRight02Box{
+	width: 189px;
+	padding-top: 36px;
+}
+footer .footerinner .footerRight02Box ul li{
+	list-style-type: none;
+	text-align: left;
+	margin-bottom: 20px;
+	background-image: url(../images/footer/footer-ya.png);
+	margin-bottom: 10px;
+  	margin-left: 0;
+  	padding-left: 16px;
+  	font-size: 13px;
+  	line-height: 13px;
+}
+footer .footerinner .footerRight03Box{
+	width: 167px;
+	padding-top: 36px;
+}
+footer .footerinner .footerRight03Box ul li{
+	list-style-type: none;
+	text-align: left;
+	margin-bottom: 20px;
+	background-image: url(../images/footer/footer-ya.png);
+	margin-bottom: 10px;
+  	margin-left: 0;
+  	padding-left: 16px;
+  	font-size: 13px;
+  	line-height: 13px;
+}
+
+.snsimage{
+	clear: both;
+}
+.snsimage ul li{
+	list-style-type: none;
+	float: left;
+}
+address .add {
+	padding-bottom: 20px;
+}
+
+
+
+
