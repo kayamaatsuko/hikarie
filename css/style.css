@@ -203,7 +203,7 @@ footer {
 	padding-bottom: 20px;
 }
 footer .footerinner {
-	padding: 40px 60px;
+	padding: 40px 60px 34px;
 	overflow: hidden;
 	width: 1080px;
 	display:flex;
@@ -308,6 +308,7 @@ footer .footerinner .footerRight01Box{
 	width: 184px;
 	margin: 0;
 	padding: 0;
+
 }
 
 footer .footerinner .footerRight01Box .footerRightTopTitle {
@@ -322,12 +323,13 @@ footer .footerinner .footerRight01Box .footerRightTopTitle {
 
 footer .footerinner .footerRight .footerRight01Box ul{
 	margin: 0;
-	padding: 0; 
+	padding: 0;
+	
 }
 footer .footerinner .footerRight01Box ul li{
 	list-style-type: none;
 	text-align: left;
-	margin-bottom: 20px;
+	margin-bottom: 24px;
 	background-image: url(../images/footer/footer-ya.png);
 	margin-bottom: 10px;
   	margin-left: 0;
@@ -342,7 +344,7 @@ footer .footerinner .footerRight02Box{
 footer .footerinner .footerRight02Box ul li{
 	list-style-type: none;
 	text-align: left;
-	margin-bottom: 20px;
+	margin-bottom: 24px;
 	background-image: url(../images/footer/footer-ya.png);
 	margin-bottom: 10px;
   	margin-left: 0;
@@ -357,7 +359,7 @@ footer .footerinner .footerRight03Box{
 footer .footerinner .footerRight03Box ul li{
 	list-style-type: none;
 	text-align: left;
-	margin-bottom: 20px;
+	margin-bottom: 24px;
 	background-image: url(../images/footer/footer-ya.png);
 	margin-bottom: 10px;
   	margin-left: 0;
@@ -365,16 +367,42 @@ footer .footerinner .footerRight03Box ul li{
   	font-size: 13px;
   	line-height: 13px;
 }
+ul.footerRightBoxUp {
+	margin-bottom: 37px;
+	padding-bottom: 37px;
+	border-bottom: 1px #fff dotted;
+}
+footer.footerinner .footerRight01Box ul.footerRightBoxBottom {
+	margin-top: 39px;
+	clear: both;
+}
+footer .footerinner .footerRight02Box ul.footerRightBoxBottom {
+	margin-top: 39px;
+	clear: both;
+}
+footer .footerinner .footerRight03Box ul.footerRightBoxBottom {
+	margin-top: 39px;
+	clear: both;
+}
 
 .snsimage{
 	clear: both;
+	margin: 0 auto 23px;
+	width: 85px;
 }
 .snsimage ul li{
 	list-style-type: none;
 	float: left;
+	margin-right: 30px;
 }
-address .add {
+.snsimage ul li:last-child{
+	margin-right: 0;
+}
+address.add {
 	padding-bottom: 20px;
+	font-size: 12px;
+	font-family: Century Gothic;
+	color: #fff;
 }
 
 
