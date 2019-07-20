@@ -217,12 +217,12 @@ footer .footerinner .footerLeft{
 	text-align: left;
 }
 footer .footerinner .footerLeft .footerlogo{
-	margin: 0;
+	margin: 0 0 14px 0;
 	padding: 0;
 	text-align: left;
 }
 footer .footerinner .footerLeft .footershopadd{
-	margin: 0;
+	margin: 0 0 43px 0;
 	padding: 0;
 	text-align: left;
 	color: #fff;
@@ -230,7 +230,7 @@ footer .footerinner .footerLeft .footershopadd{
 	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
 }
 footer .footerinner .footerinnerinfoTitle{
-	margin: 0;
+	margin: 0 0 18px 0;
 	padding: 0;
 	text-align: left;
 	color: #3c3c3c;
@@ -239,7 +239,7 @@ footer .footerinner .footerinnerinfoTitle{
 	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
 }
 footer .footerinner .footerLeft .footerinnerinfoItem{
-	margin: 0;
+	margin: 0 0 9px 0;
 	padding: 0;
 	text-align: left;
 	color: #3c3c3c;
@@ -247,7 +247,7 @@ footer .footerinner .footerLeft .footerinnerinfoItem{
 	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
 }
 footer .footerinner .footerLeft .footerinnerinfoNote{
-	margin: 0;
+	margin: 0 0 19px 0;
 	padding: 0;
 	text-align: left;
 	color: #fff;
@@ -273,7 +273,7 @@ footer .footerinner .footerCenter{
 	text-align: left;
 }
 .footerinnerinfoShopHours {
-	margin: 0;
+	margin: 0 0 18px 0;
 	padding: 0;
 	text-align: left;
 	color: #3c3c3c;
@@ -282,22 +282,46 @@ footer .footerinner .footerCenter{
 	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
 }
 footer .footerinner .footerCenter .footerinnerinfoShop{
+	margin: 0 0 12px 0;
+	font-size: 13px;
+	color: #3c3c3c;
+	font-weight: bold;
+	font-family: Gotham-Medium,Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+}
+.footerinnerinfoShop6F{
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	color: #3c3c3c;
+	font-weight: bold;
+	font-family: Gotham-Medium,Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+}
+.footerinnerinfoShop7F{
+	margin: 0 0 7px 0;
 	font-size: 13px;
 	color: #3c3c3c;
 	font-weight: bold;
 	font-family: Gotham-Medium,Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
 }
 .footerinnerinfoShopTime {
+	margin: 0 0 21px 0;
 	font-size: 19px;
 	color: #fff;
 	font-weight: normal;
 	font-family: Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
 }
 .footerinnerinfoShopBut {
+	margin-bottom: 17px;
 	font-size: 11px;
 	color: #414141;
 	font-weight: nomal;
 	font-family:"小塚ゴシック";
+}
+.footerinnerinfoShopTimeLast {
+	margin: 0 0 6px 0;
+	font-size: 19px;
+	color: #fff;
+	font-weight: normal;
+	font-family: Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
 }
 
 
@@ -331,7 +355,7 @@ footer .footerinner .footerRight01Box ul li{
 	text-align: left;
 	margin-bottom: 24px;
 	background-image: url(../images/footer/footer-ya.png);
-	margin-bottom: 10px;
+	margin-bottom: 25px;
   	margin-left: 0;
   	padding-left: 16px;
   	font-size: 13px;
@@ -346,7 +370,7 @@ footer .footerinner .footerRight02Box ul li{
 	text-align: left;
 	margin-bottom: 24px;
 	background-image: url(../images/footer/footer-ya.png);
-	margin-bottom: 10px;
+	margin-bottom: 25px;
   	margin-left: 0;
   	padding-left: 16px;
   	font-size: 13px;
@@ -361,7 +385,7 @@ footer .footerinner .footerRight03Box ul li{
 	text-align: left;
 	margin-bottom: 24px;
 	background-image: url(../images/footer/footer-ya.png);
-	margin-bottom: 10px;
+	margin-bottom: 25px;
   	margin-left: 0;
   	padding-left: 16px;
   	font-size: 13px;
