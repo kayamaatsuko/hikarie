@@ -4,539 +4,586 @@
 clearfix 
 ************************/
 .cf {
-	zoom: 1;
+  zoom: 1;
 }
-.cf:before, .cf:after {
-	content: "";
-	display: table;
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
 }
 .cf:after {
-	clear: both;
-}/* CSS Document */
+  clear: both;
+} /* CSS Document */
 * {
-	margin: 0 auto;
-	padding: 0;
+  margin: 0 auto;
+  padding: 0;
 }
-html {}
+html {
+}
 body {
-	margin: 0 auto;
-	padding: 0;
-	text-align: center;
-	width: 100%;
-	min-height: 100%;
-	background-color: #fff;
-	text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  min-height: 100%;
+  background-color: #fff;
+  text-align: center;
 }
-header{
-   width: 100%;
-   max-width: 1200px; 
+header {
+  width: 100%;
+  max-width: 1200px;
 }
-.headinner{
-
+.headinner {
 }
-.headerLogo{
-	float: left;
-	margin-top: 23px;
-	margin-left: 22px;
-	width: 140px;
-	height: 42px;
+.headerLogo {
+  float: left;
+  margin-top: 23px;
+  margin-left: 22px;
+  width: 140px;
+  height: 42px;
 }
-.headernenu{
-	float: right;
+.headinner .headerLogo-m {
+	display: none;
+  }
+.headernenu {
+  float: right;
 }
-.headinner .headernenu ul{
-	/*width: 336px;*/
-	margin: 23px 0 0 0;
+.headinner .headernenu ul {
+  /*width: 336px;*/
+  margin: 23px 0 0 0;
 }
-.headinner .headernenu ul li{
-	display: inline;
-	margin:0 25px 14px 0;
-	color: #d3a000;
-	font-size: 13px;
-	font-family: YuGothicStd;
-	list-style-type: none;
+.headinner .headernenu ul li {
+  display: inline;
+  margin: 0 25px 14px 0;
+  color: #d3a000;
+  font-size: 13px;
+  font-family: YuGothicStd;
+  list-style-type: none;
 }
-.headinner .headernenu ul li:last-child{
-	margin-right: 17px;
+.headinner .headernenu ul li:last-child {
+  margin-right: 17px;
 }
-.headinner .headernenu .search{
-	margin: 14px 17px 15px 0;
-	width: 196px;
-	float: right;
+.headinner .headernenu .search {
+  margin: 14px 17px 15px 0;
+  width: 196px;
+  float: right;
 }
 .headermenu {
-	background-color: #e2ca6d;
-	width: 100%;
-	height: 56px;
+  background-color: #e2ca6d;
+  width: 100%;
+  height: 56px;
 }
-.headermenuinner{
-	width: 1080px;
-	margin: 0 auto;
-	text-align: center;
+.headermenuinner {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center;
 }
-.headermenuText{
-	display: inline-block;
-	padding-right: 51px;
-	margin-top: 13px;
-	vertical-align: middle;
+.headermenuText {
+  display: inline-block;
+  padding-right: 51px;
+  margin-top: 13px;
+  vertical-align: middle;
 }
-.headermenuJa{
-	font-size: 10px;
-	font-family: YuGo;
-	color: #66502b;
-	margin-bottom: 8px;
+.headermenuJa {
+  font-size: 10px;
+  font-family: YuGo;
+  color: #66502b;
+  margin-bottom: 8px;
 }
-.headermenuEn{
-	font-size: 16px;
-	font-family: Gotham-Medium;
-	font-weight: bold;
-	color: #66502b;
+.headermenuEn {
+  font-size: 16px;
+  font-family: Gotham-Medium;
+  font-weight: bold;
+  color: #66502b;
 }
 #topimg {
-	
 }
-.topimgBotton img{
-	position: relative;
+.topimgBotton {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
 }
-.pagenavi{
-	
+.pagenavi {
 }
-.pagenavi ul{
+.pagenavi ul {
 }
-.pagenavi ul li{
-	float: right;
-	margin-right: 6px;
-	list-style-type: none;
+.pagenavi ul li {
+  float: right;
+  margin-right: 6px;
+  list-style-type: none;
 }
-.pagenavi ul li:last-child{
-	margin: 0;
+.pagenavi ul li:last-child {
+  margin: 0;
 }
-.leftya{
-	position: absolute;
-	top: 600px;
-	left :1300px;
-	z-index: 10;
+.leftya {
+  position: absolute;
+  top: 436px;
+  left: 1036px;
+  z-index: 10;
 }
-.rightya{
-	position: absolute;
-	top: 600px;
-	left :1354px;
-	z-index: 10;
+.rightya {
+  position: absolute;
+  top: 436px;
+  left: 1092px;
+  z-index: 10;
 }
-nav{
-	position: relative;
+nav {
+  position: relative;
+  width: 1200px;
 }
-nav img{
-	
+nav img {
+	width: 100%;
+	max-width: 1200px;
 }
-nav .topMenu{
-	position: absolute;
-	top :72px;
-	left :120px;
+nav .topMenu {
+  position: absolute;
+  top: 72px;
+  left: 70px;
+  
 }
-nav .topMenu .topMenuBox01{
-	float: left;
-	margin-right: 20px;
+nav .topMenu .topMenuBox01 {
+  float: left;
+  margin-right: 20px;
 }
 nav .topMenu .topMenuBox01 p {
-	color: #272727;
-	font-family: "游ゴシック体 Std";
-	font-size: 14px;
-	text-align: center;
-	width: 98px;
-	margin-top: 18px;
+  color: #272727;
+  font-family: "游ゴシック体 Std";
+  font-size: 14px;
+  text-align: center;
+  width: 98px;
+  margin-top: 18px;
 }
 /************************** 
 topics 
-****************************/ 
-section#topics{ 
-	width: 1200px; 
-	background-color: #f9f5e8; 
-	margin: 64px auto; 
-} 
-.topicsinner{ 
-	width: 1080px; 
-	margin: 0 auto; 
-} 
-.topicsinner h2.topicsTitle{ 
-	color: #373737; 
-	font-size: 35px; 
-	font-family: Gotham-Medium; 
-	font-weight: bold;
-	text-align: left; 
-	margin-bottom: 25px; 
-} 
-.topicsinner .topicsinnerwhite{ 
-	/*background-color: #fff;*/ 
-	width: 1080px; 
-	/*height: 1054px; */
-	height: auto;
-	background-color: #f9f5e8; 
-} 
-.topicsHeader{ 
-	 
-} 
-.topicsHeader ul{ 
-	width: 1080px; 
-} 
-.topicsHeader ul li{ 
-	list-style-type: none; 
-	float: left; 
-} 
-.item { 
-	/*width: 1016px;*/ 
-	margin: 48px 0px 41px 30px; 
-	 
-	 
-} 
-.item .itemIntro{ 
-	display: inline-block; 
-	margin-right: 28px; 
-	background-color: #fff; 
-	vertical-align: top; 
-	margin-bottom: 29px; 
-	position: relative; 
-} 
-.itemIntro img{ 
-	 
-} 
-.itemLinkBotton{ 
-	position: absolute; 
-	top:15px; 
-	left: 0; 
-} 
-.item .itemIntroRight{
-	
-	display: inline-block; 
-	margin-right: 0; 
-} 
-.itemIntroNote { 
-	width: 318px; 
-	height: 150px; 
-	/*background-color: #f9f5e8; */
-	padding: 16px; 
-	text-align: left; 
-	background-color: #fff;
-} 
-.itemIntroNoteTime{ 
-	margin-bottom: 18px; 
-	font-size: 13px; 
-	font-family: "游ゴシック体 Std"; 
-	color: #646464; 
+****************************/
+section#topics {
+  width: 1200px;
+  background-color: #f9f5e8;
+  margin: 64px auto;
 }
-.itemIntroNoteTime ul li{
-	list-style-type: none;
-	float: left;
+.topicsinner {
+  width: 1080px;
+  margin: 0 auto;
 }
-.itemIntroNoteTime ul li.itemIntroNoteTimeDAY{
-	margin-right: 18px;
+.topicsinner h2.topicsTitle {
+  color: #373737;
+  font-size: 35px;
+  font-family: Gotham-Medium;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 25px;
 }
-.itemIntroNoteTime ul li.itemIntroNoteTimeMARK{
-	margin-right: 4px;
+.topicsinner .topicsinnerwhite {
+  /*background-color: #fff;*/
+  width: 1080px;
+  /*height: 1054px; */
+  height: auto;
+  background-color: #f9f5e8;
 }
-.itemIntroNoteTime ul li.itemIntroNoteTimeSHOP{
-	margin-right: 8px;
+.topicsHeader {
 }
- 
-.itemIntroNoteContents { 
-	color: #000; 
-	font-size: 15px; 
-	font-weight: bold; 
-	font-family: "游ゴシック体 Std"; 
-	line-height: 25.09px; 
-} 
-.itemSalesday { 
-	margin-top: 17px; 
-	color: #646464; 
-	font-size: 14px; 
-	font-family: "游ゴシック体 Std"; 
+.topicsHeader ul {
+  width: 1080px;
 }
-.topicsmoreBotton{
-	margin-bottom: 82px;
+.topicsHeader ul li {
+  list-style-type: none;
+  float: left;
+}
+.item {
+  /*width: 1016px;*/
+  margin: 48px 0px 41px 30px;
+}
+.item .itemIntro {
+  display: inline-block;
+  margin-right: 28px;
+  background-color: #fff;
+  vertical-align: top;
+  margin-bottom: 29px;
+  position: relative;
+}
+.itemIntro img {
+}
+.itemLinkBotton {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+.item .itemIntroRight {
+  display: inline-block;
+  margin-right: 0;
+}
+.itemIntroNote {
+  width: 318px;
+  height: 150px;
+  /*background-color: #f9f5e8; */
+  padding: 16px;
+  text-align: left;
+  background-color: #fff;
+}
+.itemIntroNoteTime {
+  margin-bottom: 18px;
+  font-size: 13px;
+  font-family: "游ゴシック体 Std";
+  color: #646464;
+}
+.itemIntroNoteTime ul li {
+  list-style-type: none;
+  float: left;
+}
+.itemIntroNoteTime ul li.itemIntroNoteTimeDAY {
+  margin-right: 18px;
+}
+.itemIntroNoteTime ul li.itemIntroNoteTimeMARK {
+  margin-right: 4px;
+}
+.itemIntroNoteTime ul li.itemIntroNoteTimeSHOP {
+  margin-right: 8px;
 }
 
+.itemIntroNoteContents {
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "游ゴシック体 Std";
+  line-height: 25.09px;
+}
+.itemSalesday {
+  margin-top: 17px;
+  color: #646464;
+  font-size: 14px;
+  font-family: "游ゴシック体 Std";
+}
+.topicsmoreBotton {
+  margin-bottom: 82px;
+}
 
 /**************
 インフォメーション
 ***************************/
 #information {
-	margin-top: 86px;
-	position: relative;
+  margin-top: 86px;
+  position: relative;
 }
 .inforTitle {
-	font-family: Gotham-Medium;
-	font-weight: bold;
-	font-size: 35px;
-	color:#373737;
+  font-family: Gotham-Medium;
+  font-weight: bold;
+  font-size: 35px;
+  color: #373737;
 }
 #information dl {
-	width: 1080px;
-	border: 1px #c5c5c5 solid;
-	border-radius: 3px;
-	margin: 38px auto 70px;
-	padding: 0 25px ;
+  width: 1080px;
+  border: 1px #c5c5c5 solid;
+  border-radius: 3px;
+  margin: 38px auto 70px;
+  padding: 0 25px;
 }
-#information dl dt{
-	position: absolute;
-	/*width: 10em;*/
-	width: 90px;
-	float: left;
-	/*margin-left: 25px;*/
-	padding-bottom: 24px;
-	border-bottom: 1px #c5c5c5 dotted;
-	padding-top: 27px;
-	text-align: left;
-	color: #c99a00;
-	font-size: 12px;
-	font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+#information dl dt {
+  position: absolute;
+  /*width: 10em;*/
+  width: 90px;
+  float: left;
+  /*margin-left: 25px;*/
+  padding-bottom: 24px;
+  border-bottom: 1px #c5c5c5 dotted;
+  padding-top: 27px;
+  text-align: left;
+  color: #c99a00;
+  font-size: 12px;
+  font-family: "小塚ゴシック Pro", "Kozuka Gothic Pro", sans-serif;
 }
-#information dl dt.last{
-	border-bottom: none;
+#information dl dt.last {
+  border-bottom: none;
 }
-#information dl dd{
-	/*padding-left: 10em;*/
-	padding-left: 90px;
-	padding-bottom: 24px;
-	padding-top: 27px;
-	text-align: left;
-	color: #4d4d4d;
-	font-size: 12px;
-	font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
-	border-bottom: 1px #c5c5c5 dotted;
+#information dl dd {
+  /*padding-left: 10em;*/
+  padding-left: 90px;
+  padding-bottom: 24px;
+  padding-top: 27px;
+  text-align: left;
+  color: #4d4d4d;
+  font-size: 12px;
+  font-family: "小塚ゴシック Pro", "Kozuka Gothic Pro", sans-serif;
+  border-bottom: 1px #c5c5c5 dotted;
 }
-#information dl dd:last-child{
-	border-bottom: none;
+#information dl dd:last-child {
+  border-bottom: none;
 }
 
 /**************
 footer
 ***************************/
 footer {
-	width: 1200px;
-	/*height: 425px;*/
-	background-color: #c7b299;
-	padding-bottom: 20px;
+  width: 1200px;
+  /*height: 425px;*/
+  background-color: #c7b299;
+  padding-bottom: 20px;
 }
 footer .footerinner {
-	padding: 38px 57px 31px;
-	overflow: hidden;
-	width: 1080px;
-	display:flex;
+  padding: 38px 57px 31px;
+  overflow: hidden;
+  width: 1080px;
+  display: flex;
 }
-footer .footerinner .footerLeft{
-	/*float: left;*/
-	width: 315px;
-	margin: 0;
-	padding: 0;
-	clear: both;
-	text-align: left;
+footer .footerinner .footerLeft {
+  /*float: left;*/
+  width: 315px;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  text-align: left;
 }
-footer .footerinner .footerLeft .footerlogo{
-	margin: 2px 0 14px 0;
-	padding: 0;
-	text-align: left;
+footer .footerinner .footerLeft .footerlogo {
+  margin: 2px 0 14px 0;
+  padding: 0;
+  text-align: left;
 }
-footer .footerinner .footerLeft .footershopadd{
-	margin: 0 0 43px 0;
-	padding: 0;
-	text-align: left;
-	color: #fff;
-	font-size: 12px;
-	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
+footer .footerinner .footerLeft .footershopadd {
+  margin: 0 0 43px 0;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  font-size: 12px;
+  font-family: YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
-footer .footerinner .footerinnerinfoTitle{
-	margin: 0 0 18px 0;
-	padding: 0;
-	text-align: left;
-	color: #3c3c3c;
-	font-size: 14px;
-	font-weight: bold;
-	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
+footer .footerinner .footerinnerinfoTitle {
+  margin: 0 0 18px 0;
+  padding: 0;
+  text-align: left;
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
-footer .footerinner .footerLeft .footerinnerinfoItem{
-	margin: 0 0 9px 0;
-	padding: 0;
-	text-align: left;
-	color: #3c3c3c;
-	font-size: 13px;
-	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
+footer .footerinner .footerLeft .footerinnerinfoItem {
+  margin: 0 0 9px 0;
+  padding: 0;
+  text-align: left;
+  color: #3c3c3c;
+  font-size: 13px;
+  font-family: YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
-footer .footerinner .footerLeft .footerinnerinfoNote{
-	margin: 0 0 19px 0;
-	padding: 0;
-	text-align: left;
-	color: #fff;
-	font-size: 19px;
-	font-family: Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+footer .footerinner .footerLeft .footerinnerinfoNote {
+  margin: 0 0 19px 0;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  font-size: 19px;
+  font-family: Century Gothic, YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
-.footerinnerinfoNoteS{
-	color: #fff;
-	font-size: 12px;
-	font-family: Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+.footerinnerinfoNoteS {
+  color: #fff;
+  font-size: 12px;
+  font-family: Century Gothic, YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
 
-footer .footerinner .footerCenter{
-	/*float: left;*/
-	width: 234px;
-	margin: 0;
-	padding: 0;
-	clear: both;
-	text-align: left;
+footer .footerinner .footerCenter {
+  /*float: left;*/
+  width: 234px;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  text-align: left;
 }
 .footerinnerinfoShopHours {
-	margin: 0 0 18px 0;
-	padding: 0;
-	text-align: left;
-	color: #3c3c3c;
-	font-size: 14px;
-	font-weight: bold;
-	font-family: YuGo, "游ゴシック", Yu Gothic,YuGothic;
+  margin: 0 0 18px 0;
+  padding: 0;
+  text-align: left;
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
-footer .footerinner .footerCenter .footerinnerinfoShop{
-	margin: 0 0 12px 0;
-	font-size: 13px;
-	color: #3c3c3c;
-	font-weight: bold;
-	font-family: Gotham-Medium,Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+footer .footerinner .footerCenter .footerinnerinfoShop {
+  margin: 0 0 12px 0;
+  font-size: 13px;
+  color: #3c3c3c;
+  font-weight: bold;
+  font-family: Gotham-Medium, Century Gothic, YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
-.footerinnerinfoShop6F{
-	margin: 0 0 10px 0;
-	font-size: 13px;
-	color: #3c3c3c;
-	font-weight: bold;
-	font-family: Gotham-Medium,Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+.footerinnerinfoShop6F {
+  margin: 0 0 10px 0;
+  font-size: 13px;
+  color: #3c3c3c;
+  font-weight: bold;
+  font-family: Gotham-Medium, Century Gothic, YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
-.footerinnerinfoShop7F{
-	margin: 0 0 7px 0;
-	font-size: 13px;
-	color: #3c3c3c;
-	font-weight: bold;
-	font-family: Gotham-Medium,Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+.footerinnerinfoShop7F {
+  margin: 0 0 7px 0;
+  font-size: 13px;
+  color: #3c3c3c;
+  font-weight: bold;
+  font-family: Gotham-Medium, Century Gothic, YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
 .footerinnerinfoShopTime {
-	margin: 0 0 21px 0;
-	font-size: 19px;
-	color: #fff;
-	font-weight: normal;
-	font-family: Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+  margin: 0 0 21px 0;
+  font-size: 19px;
+  color: #fff;
+  font-weight: normal;
+  font-family: Century Gothic, YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
 .footerinnerinfoShopBut {
-	margin-bottom: 17px;
-	font-size: 11px;
-	color: #414141;
-	font-weight: nomal;
-	font-family:"小塚ゴシック";
+  margin-bottom: 17px;
+  font-size: 11px;
+  color: #414141;
+  font-weight: nomal;
+  font-family: "小塚ゴシック";
 }
 .footerinnerinfoShopTimeLast {
-	margin: 0 0 6px 0;
-	font-size: 19px;
-	color: #fff;
-	font-weight: normal;
-	font-family: Century Gothic,YuGo, "游ゴシック", Yu Gothic,YuGothic;
+  margin: 0 0 6px 0;
+  font-size: 19px;
+  color: #fff;
+  font-weight: normal;
+  font-family: Century Gothic, YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
 
-footer .footerinner .footerRight01Box{
-	width: 184px;
-	margin: 0;
-	padding: 0;
-
+footer .footerinner .footerRight01Box {
+  width: 184px;
+  margin: 0;
+  padding: 0;
 }
 
 footer .footerinner .footerRight01Box .footerRightTopTitle {
-	margin: 0 0 20px 0;
-	padding: 0;
-	color: #3c3c3c;
-	font-size: 14px;
-	font-family: Gotham-Medium;
-	font-weight: bold;
-	text-align: left;
-	
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #3c3c3c;
+  font-size: 14px;
+  font-family: Gotham-Medium;
+  font-weight: bold;
+  text-align: left;
 }
 
-footer .footerinner .footerRight .footerRight01Box ul{
-	margin: 0;
-	padding: 0;
-	
+footer .footerinner .footerRight .footerRight01Box ul {
+  margin: 0;
+  padding: 0;
 }
-footer .footerinner .footerRight01Box ul li{
-	list-style-type: none;
-	text-align: left;
-	margin-bottom: 24px;
-	background-image: url(../images/footer/footer-ya.png);
-	margin-bottom: 25px;
-  	margin-left: 0;
-  	padding-left: 16px;
-  	font-size: 13px;
-  	line-height: 13px;
+footer .footerinner .footerRight01Box ul li {
+  list-style-type: none;
+  text-align: left;
+  margin-bottom: 24px;
+  background-image: url(../images/footer/footer-ya.png);
+  margin-bottom: 25px;
+  margin-left: 0;
+  padding-left: 16px;
+  font-size: 13px;
+  line-height: 13px;
 }
-footer .footerinner .footerRight02Box{
-	width: 189px;
-	padding-top: 36px;
+footer .footerinner .footerRight02Box {
+  width: 189px;
+  padding-top: 36px;
 }
-footer .footerinner .footerRight02Box ul li{
-	list-style-type: none;
-	text-align: left;
-	margin-bottom: 24px;
-	background-image: url(../images/footer/footer-ya.png);
-	margin-bottom: 25px;
-  	margin-left: 0;
-  	padding-left: 16px;
-  	font-size: 13px;
-  	line-height: 13px;
+footer .footerinner .footerRight02Box ul li {
+  list-style-type: none;
+  text-align: left;
+  margin-bottom: 24px;
+  background-image: url(../images/footer/footer-ya.png);
+  margin-bottom: 25px;
+  margin-left: 0;
+  padding-left: 16px;
+  font-size: 13px;
+  line-height: 13px;
 }
-footer .footerinner .footerRight03Box{
-	width: 167px;
-	padding-top: 36px;
+footer .footerinner .footerRight03Box {
+  width: 167px;
+  padding-top: 36px;
 }
-footer .footerinner .footerRight03Box ul li{
-	list-style-type: none;
-	text-align: left;
-	margin-bottom: 24px;
-	background-image: url(../images/footer/footer-ya.png);
-	margin-bottom: 25px;
-  	margin-left: 0;
-  	padding-left: 16px;
-  	font-size: 13px;
-  	line-height: 13px;
+footer .footerinner .footerRight03Box ul li {
+  list-style-type: none;
+  text-align: left;
+  margin-bottom: 24px;
+  background-image: url(../images/footer/footer-ya.png);
+  margin-bottom: 25px;
+  margin-left: 0;
+  padding-left: 16px;
+  font-size: 13px;
+  line-height: 13px;
 }
 ul.footerRightBoxUp {
-	margin-bottom: 39px;
-	padding-bottom: 20px;
-	border-bottom: 1px #fff dotted;
+  margin-bottom: 39px;
+  padding-bottom: 20px;
+  border-bottom: 1px #fff dotted;
 }
 footer.footerinner .footerRight01Box ul.footerRightBoxBottom {
-	margin-top: 39px;
-	clear: both;
+  margin-top: 39px;
+  clear: both;
 }
 footer .footerinner .footerRight02Box ul.footerRightBoxBottom {
-	margin-top: 39px;
-	clear: both;
+  margin-top: 39px;
+  clear: both;
 }
 footer .footerinner .footerRight03Box ul.footerRightBoxBottom {
-	margin-top: 39px;
-	clear: both;
+  margin-top: 39px;
+  clear: both;
 }
 
-.snsimage{
-	clear: both;
-	margin: 0 auto 23px;
-	width: 85px;
+.snsimage {
+  clear: both;
+  margin: 0 auto 23px;
+  width: 85px;
 }
-.snsimage ul li{
-	list-style-type: none;
-	float: left;
-	margin-right: 30px;
+.snsimage ul li {
+  list-style-type: none;
+  float: left;
+  margin-right: 30px;
 }
-.snsimage ul li:last-child{
-	margin-right: 0;
+.snsimage ul li:last-child {
+  margin-right: 0;
 }
 address.add {
-	padding-bottom: 20px;
-	font-size: 12px;
-	font-family: Century Gothic;
-	color: #fff;
+  padding-bottom: 20px;
+  font-size: 12px;
+  font-family: Century Gothic;
+  color: #fff;
 }
 
+/*@media screen and (max-width:480px){
+	header {
+		width: 100%;
+		max-width: 480px;
+	  }
+	  .headinner {
+	  }
+	  .headinner .headerLogo {
+		display: none;
+	  }
+	  .headinner .headerLogo-m {
+		text-align: left;
+	  }
+	  .headinner .headernenu {
+		display: none;
+	  }
+	  
+	  
+	 
+	  .headermenuinner .headermenuText {
+		display: inline-block;
+		padding-right: 51px;
+		margin-top: 13px;
+		vertical-align: middle;
+	  }
+	  .headermenuJa {
+		font-size: 10px;
+		font-family: YuGo;
+		color: #66502b;
+		margin-bottom: 8px;
+	  }
+	  .headermenuEn {
+		font-size: 16px;
+		font-family: Gotham-Medium;
+		font-weight: bold;
+		color: #66502b;
+	  }
+	
 
 
 
+
+
+
+
+
+
+
+
+
+
+} */
