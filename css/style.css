@@ -45,6 +45,9 @@ header {
 .headinner .headerLogo-m {
 	display: none;
   }
+.headinner .headerRight-m {
+	display: none;
+  }
 .headernenu {
   float: right;
 }
@@ -99,10 +102,12 @@ header {
 #topimg {
 }
 .topimgBotton {
+  display: block;
   position: relative;
   width: 1200px;
   margin: 0 auto;
 }
+
 .pagenavi {
 }
 .pagenavi ul {
@@ -131,9 +136,12 @@ nav {
   position: relative;
   width: 1200px;
 }
-nav img {
+nav img.pc{
 	width: 100%;
 	max-width: 1200px;
+}
+nav img.sp{
+	display: none;
 }
 nav .topMenu {
   position: absolute;
@@ -153,6 +161,18 @@ nav .topMenu .topMenuBox01 p {
   width: 98px;
   margin-top: 18px;
 }
+nav .topMenu .topMenuBox02 {
+	float: left;
+	margin-right: 20px;
+  }
+  nav .topMenu .topMenuBox02 p {
+	color: #272727;
+	font-family: "游ゴシック体 Std";
+	font-size: 14px;
+	text-align: center;
+	width: 98px;
+	margin-top: 18px;
+  }
 /************************** 
 topics 
 ****************************/
@@ -161,6 +181,7 @@ section#topics {
   background-color: #f9f5e8;
   margin: 64px auto;
 }
+
 .topicsinner {
   width: 1080px;
   margin: 0 auto;
@@ -279,10 +300,8 @@ section#topics {
 }
 #information dl dt {
   position: absolute;
-  /*width: 10em;*/
   width: 90px;
   float: left;
-  /*margin-left: 25px;*/
   padding-bottom: 24px;
   border-bottom: 1px #c5c5c5 dotted;
   padding-top: 27px;
@@ -295,7 +314,6 @@ section#topics {
   border-bottom: none;
 }
 #information dl dd {
-  /*padding-left: 10em;*/
   padding-left: 90px;
   padding-bottom: 24px;
   padding-top: 27px;
@@ -535,44 +553,223 @@ address.add {
   color: #fff;
 }
 
-/*@media screen and (max-width:480px){
+@media screen and (max-width:480px){
+	body {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
 	header {
 		width: 100%;
-		max-width: 480px;
+		max-width: 320px;
+		
 	  }
 	  .headinner {
+		  height: 52px;
+		  
+	  }
+	  .headernenu {
+		display: none;
 	  }
 	  .headinner .headerLogo {
 		display: none;
 	  }
 	  .headinner .headerLogo-m {
+		display: block;
+		display: inline-block;
 		text-align: left;
+		width: 100px;
+		height: 15px;
+		margin: 8px 50px 0 7px;
+	  }
+	  .headinner .headerRight-m {
+		display: block;
+		display: inline-block;
+		text-align: right;
+		width: 137px;
+		height: 18px;
+		margin: 8px 0 0 7px;
 	  }
 	  .headinner .headernenu {
 		display: none;
-	  }
-	  
-	  
-	 
+	  }	 
 	  .headermenuinner .headermenuText {
-		display: inline-block;
-		padding-right: 51px;
-		margin-top: 13px;
-		vertical-align: middle;
+		display: none;
 	  }
-	  .headermenuJa {
-		font-size: 10px;
-		font-family: YuGo;
-		color: #66502b;
-		margin-bottom: 8px;
+	  .headermenu{
+		display: none;
 	  }
-	  .headermenuEn {
-		font-size: 16px;
+
+	  .topimgBotton {
+		display: block;
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+	  }
+	  
+	  .pagenavi {
+	  }
+	  .pagenavi ul {
+	  }
+	  .pagenavi ul li {
+		float: right;
+		margin-right: 6px;
+		list-style-type: none;
+	  }
+	  .pagenavi ul li:last-child {
+		margin: 0;
+	  }
+	  /*.pagenavi img {
+		  width: 90%;
+	  }*/
+	  .leftya {
+		position: absolute;
+		top: 100px;
+		left: 218px;
+		z-index: 10;
+	  }
+	  .rightya {
+		position: absolute;
+		top: 100px;
+		left: 268px;
+		z-index: 10;
+	  }
+	nav {
+	  position: relative;
+	  width: 100%;
+	  height: auto;
+	}
+	nav img.pc {
+		display: none;
+	}
+	nav img.sp {
+		display: block;
+	}
+	nav .topMenu {
+	  position: absolute;
+	  top: 40px;
+	  left: 20px;
+	}
+	nav .topMenu img{
+		width: 74.226%;
+		max-width: 72px;
+	}
+	nav .topMenu .topMenuBox01 {
+	  float: left;
+	  margin-right: 30px;
+	  margin-bottom: 10px;
+	  height: 120px;
+	}
+	nav .topMenu .topMenuBox01:nth-child(3) {
+		float: left;
+		margin-right: 0;
+	  }
+	  nav .topMenu .topMenuBox01:nth-child(6) {
+		float: left;
+		margin-right: 0;
+	  }
+	  nav .topMenu .topMenuBox01:nth-child(9) {
+		float: left;
+		margin-right: 0;
+	  }
+	nav .topMenu .topMenuBox01 p {
+	  color: #272727;
+	  font-family: "游ゴシック体 Std";
+	  font-size: 12px;
+	  text-align: center;
+	  width: 72px;
+	  margin-top: 10px;
+	  line-height: 1;
+	}	
+	
+	/*#information{
+		
+	}*/
+	.inforTitle{
+		color: #373737;
+		font-size: 24px;
 		font-family: Gotham-Medium;
 		font-weight: bold;
-		color: #66502b;
-	  }
+		margin-bottom: 29px;
+		text-align: left;
+		padding-left: 20px;
+	}
+	#information dl{
+		overflow:auto;
+		border: none;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		padding: 0 18px;
+	}
+	#information dl dt{
+		clear: both;
+		font-family: YuGo;
+		font-size: 14px;
+		color: #c99a00;
+		flood-color: none;
+		float: none !important;
+		padding: 10px 0 20px 0;
+		margin-bottom: 14px;
+		border: none;
+		width: 100%;
+	}
+	#information dl dd{
+		clear: both;
+		font-family: "游ゴシック体 Std";
+		font-size: 14px;
+		color: #4d4d4d;
+		margin:0;
+		padding-left: 0;
+		width: 100%;
+		text-align: left;
+	}
+	#information dd.last{
+		font-family: "游ゴシック体 Std";
+		font-size: 14px;
+		color: #4d4d4d;
+		padding: 10px 0 0 0;
+		margin: 10px 0 0 0;
+		/*border-bottom: 1px #c5c5c5 dotted;*/
+		width: 100%;
+		text-align: left;
+
+	}
+
+
+	#topics{
+		width: 100%;
+	}
+	.topicsinner{
+		width: 100%;
+	}
+	.topicsTitle{
+		font-size: 24px;
+		font-family: Gotham-Medium;
+		color: #373737;
+	}
+	.topicsHeader{
+
+	}
+	.itemIntro img{
+		width: 0.88050314%;
+		height: auto;
+	}
+	.topicsHeader ul{
+		
+	}
+	.topicsHeader li{
+		list-style-type: none;
+		float: left;
+	}
 	
+	.itemIntroNoteTime ul li{
+		float: none;
+	}
 
 
 
@@ -585,5 +782,21 @@ address.add {
 
 
 
+	#instagram{
+		display:none;
+	}
+	footer{
+		display:none;
+	}
 
-} */
+
+
+
+
+
+
+
+
+
+
+} 
