@@ -6,7 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>HIKARIE</title>
+     	
+    <link rel="stylesheet" href="css/slider-pro.min.css"/>	
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/jquery.sliderPro.min.js"></script>
+    <link rel="stylesheet" href="css/meanmenu.css">
     <link rel="stylesheet" href="css/style.css">
+    <script>
+            $(document).ready(function() {
+            $('nav').meanmenu();
+            });
+            </script>
 </head>
 
 <body id="top">
@@ -14,7 +24,8 @@
     <header class="cf">
         <div class="headinner cf">
             <div class="headerLogo"><img src="images/head/hikarielogo.png"></div>
-            <div class="headerLogo-m"><img src="images/mobil/top-img.jpg"></div>
+            <div class="headerLogo-m"><img src="images/mobil/top-logo.png"></div>
+            <div class="headerRight-m"><img src="images/mobil/top-right.png"></div>
             <div class="headernenu cf">
                 <ul class="cf">
                     <li>各種サービス</li>
@@ -63,6 +74,7 @@
     <div id="topimg cf">
         <div class="topimgBotton">
             <img src="images/top.png">
+
             <div class="pagenavi cf">
                 <ul>
                     <li class="leftya"><img src="images/topinnerLeft.png"></li>
@@ -70,36 +82,38 @@
                 </ul>
             </div>
         </div>
+        
         <nav class="cf">
                 
-            <img src="images/topmenu/topmenuBackimg.png">
+            <img src="images/topmenu/topmenuBackimg.png" class="pc">
+            <img src="images/mobil/topmenuBackimg.png" class="sp">
             <div class="topMenu cf">
 
-                <div class="topMenuBox01"><img src="images/topmenu/topmenu01.png">
+                <div class="topMenuBox01 cf"><img src="images/topmenu/topmenu01.png">
                     <p>ショップ</p>
                 </div>
-                <div class="topMenuBox01"><img src="images/topmenu/topmenu02.png">
+                <div class="topMenuBox01 cf"><img src="images/topmenu/topmenu02.png">
                     <p>カフェ&amp;<br>レストラン</p>
                 </div>
-                <div class="topMenuBox01"><img src="images/topmenu/topmenu03.png">
+                <div class="topMenuBox01 cf"><img src="images/topmenu/topmenu03.png">
                     <p>クリエイティブスペース8/</p>
                 </div>
-                <div class="topMenuBox01"><img src="images/topmenu/topmenu04.png">
+                <div class="topMenuBox01 cf"><img src="images/topmenu/topmenu04.png">
                     <p>ホール&amp;<br>カンファレンス</p>
                 </div>
-                <div class="topMenuBox01"><img src="images/topmenu/topmenu10.png">
+                <div class="topMenuBox01 cf"><img src="images/topmenu/topmenu10.png">
                     <p>シアターオーブ</p>
                 </div>
-                <div class="topMenuBox01"><img src="images/topmenu/topmenu06.png">
+                <div class="topMenuBox01 cf"><img src="images/topmenu/topmenu06.png">
                     <p>各種サービス</p>
                 </div>
-                <div class="topMenuBox01"><img src="images/topmenu/topmenu07.png">
+                <div class="topMenuBox01 cf"><img src="images/topmenu/topmenu07.png">
                     <p>フロアマップ</p>
                 </div>
-                <div class="topMenuBox01"><img src="images/topmenu/topmenu08.png">
+                <div class="topMenuBox01 cf"><img src="images/topmenu/topmenu08.png">
                     <p>アクセス</p>
                 </div>
-                <div class="topMenuBox01"><img src="images/topmenu/topmenu09.png">
+                <div class="topMenuBox01 cf"><img src="images/topmenu/topmenu09.png">
                     <p>イベント<br>カレンダー</p>
                 </div>
 
@@ -346,6 +360,14 @@
         <address class="add">Copyright 2012 SHIBUYA HIKARIE ALL Rights Reserved.</address>
 
     </footer>
+    5
+	
+<script>
+  $(document).ready(function(){
+        $( '#slider' ).sliderPro();
+  });
+</script>
+    <script src="js/jquery.meanmenu.js"></script>
 </body>
 
 </html>
