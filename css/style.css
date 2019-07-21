@@ -146,93 +146,113 @@ nav .topMenu .topMenuBox01 p {
 	width: 98px;
 	margin-top: 18px;
 }
-/**************************
-topics
-****************************/
-section#topics{
-	width: 1200px;
-	background-color: #f9f5e8;
-	margin: 64px auto;
-}
-.topicsinner{
-	width: 1080px;
-	margin: 0 auto;
-}
-.topicsinner h2.topicsTitle{
-	color: #373737;
-	font-size: 35px;
-	font-family: Gotham-Medium;
-	font-weight: bold;
-	text-align: left;
-	margin-bottom: 25px;
-}
-.topicsinner .topicsinnerwhite{
-	background-color: #fff;
-	width: 1080px;
-	height: 1054px;
-}
-.topicsHeader{
+/************************** 
+topics 
+****************************/ 
+section#topics{ 
+	width: 1200px; 
+	background-color: #f9f5e8; 
+	margin: 64px auto; 
+} 
+.topicsinner{ 
+	width: 1080px; 
+	margin: 0 auto; 
+} 
+.topicsinner h2.topicsTitle{ 
+	color: #373737; 
+	font-size: 35px; 
+	font-family: Gotham-Medium; 
+	font-weight: bold; 
+	text-align: left; 
+	margin-bottom: 25px; 
+} 
+.topicsinner .topicsinnerwhite{ 
+	/*background-color: #fff;*/ 
+	width: 1080px; 
+	/*height: 1054px; */
+	height: auto;
+	background-color: #f9f5e8; 
+} 
+.topicsHeader{ 
+	 
+} 
+.topicsHeader ul{ 
+	width: 1080px; 
+} 
+.topicsHeader ul li{ 
+	list-style-type: none; 
+	float: left; 
+} 
+.item { 
+	/*width: 1016px;*/ 
+	margin: 48px 0px 41px 30px; 
+	 
+	 
+} 
+.item .itemIntro{ 
+	display: inline-block; 
+	margin-right: 28px; 
+	background-color: #fff; 
+	vertical-align: top; 
+	margin-bottom: 29px; 
+	position: relative; 
+} 
+.itemIntro img{ 
+	 
+} 
+.itemLinkBotton{ 
+	position: absolute; 
+	top:15px; 
+	left: 0; 
+} 
+.item .itemIntroRight{
 	
+	display: inline-block; 
+	margin-right: 0; 
+} 
+.itemIntroNote { 
+	width: 318px; 
+	height: 150px; 
+	/*background-color: #f9f5e8; */
+	padding: 16px; 
+	text-align: left; 
+	background-color: #fff;
+} 
+.itemIntroNoteTime{ 
+	margin-bottom: 18px; 
+	font-size: 13px; 
+	font-family: "游ゴシック体 Std"; 
+	color: #646464; 
 }
-.topicsHeader ul{
-	width: 1080px;
-}
-.topicsHeader ul li{
+.itemIntroNoteTime ul li{
 	list-style-type: none;
 	float: left;
 }
-.item {
-	/*width: 1016px;*/
-	margin: 48px auto 41px;
-	
-	
+.itemIntroNoteTime ul li.itemIntroNoteTimeDAY{
+	margin-right: 18px;
 }
-.item .itemIntro{
-	display: inline-block;
-	margin-right: 28px;
-	background-color: #fff;
-	vertical-align: top;
-	margin-bottom: 29px;
-	position: relative;
+.itemIntroNoteTime ul li.itemIntroNoteTimeMARK{
+	margin-right: 4px;
 }
-.itemIntro img{
-	
+.itemIntroNoteTime ul li.itemIntroNoteTimeSHOP{
+	margin-right: 8px;
 }
-.itemLinkBotton{
-	position: absolute;
-	top:191px;
-	left: 0;
+ 
+.itemIntroNoteContents { 
+	color: #000; 
+	font-size: 15px; 
+	font-weight: bold; 
+	font-family: "游ゴシック体 Std"; 
+	line-height: 25.09px; 
+} 
+.itemSalesday { 
+	margin-top: 17px; 
+	color: #646464; 
+	font-size: 14px; 
+	font-family: "游ゴシック体 Std"; 
 }
-.item .itemIntroRight{
-	display: inline-block;
-	margin-right: 0;
-}
-.itemIntroNote {
-	width: 318px;
-	height: 150px;
-	background-color: #f9f5e8;
-	padding: 16px;
-	text-align: left;
-}
-.itemIntroNoteTime{
-	margin-bottom: 18px;
-	font-size: 13px;
-	font-family: "游ゴシック体 Std";
-	color: #646464;
-}
-
-.itemIntroNoteContents {
-	color: #000;
-	font-size: 15px;
-	font-weight: bold;
-	font-family: "游ゴシック体 Std";
-	line-height: 25.09px;
-}
-.itemSalesday {
-	margin-top: 17px;
-	color: #646464;
-	font-size: 14px;
-	font-family: "游ゴシック体 Std";
+.topicsmoreBotton{
+	margin-bottom: 82px;
 }
 
 
