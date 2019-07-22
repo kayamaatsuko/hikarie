@@ -569,8 +569,8 @@ address.add {
   font-family: Century Gothic;
   color: #fff;
 }
-
-@media screen and (max-width:480px){
+/*******************************************************************/
+@media screen and (max-width:320px){
 	body {
     width: 100%;
     max-width:320px;
@@ -623,7 +623,8 @@ address.add {
 	  .topimgBotton {
 		display: block;
 		position: relative;
-		width: 100%;
+		width: 100% ;
+    max-width: 320px;
 		margin: 0 auto;
 	  }
 	  
@@ -702,9 +703,10 @@ address.add {
 	  line-height: 1;
 	}	
 	
-	/*#information{
-		
-	}*/
+	#information{
+    width: 100%;
+    max-width: 320px;
+	}
 	.inforTitle{
 		color: #373737;
 		font-size: 24px;
@@ -717,10 +719,10 @@ address.add {
 	#information dl{
 		overflow:auto;
 		border: none;
-		width: 100%;
+		max-width: 320px;
 		height: auto;
 		margin: 0 auto;
-		padding: 0 18px;
+		padding: 0 ;
 	}
 	#information dl dt{
 		clear: both;
@@ -729,10 +731,11 @@ address.add {
 		color: #c99a00;
 		flood-color: none;
 		float: none !important;
-		padding: 10px 0 20px 0;
+		padding: 10px 20px 20px 20px;
 		margin-bottom: 14px;
 		border: none;
-		width: 100%;
+    width: 100%;
+    max-width: 280px;
 	}
 	#information dl dd{
 		clear: both;
@@ -741,7 +744,8 @@ address.add {
 		color: #4d4d4d;
 		margin:0;
 		padding-left: 0;
-		width: 100%;
+    width: 100%;
+    max-width: 320px;
 		text-align: left;
 	}
 	#information dd.last{
@@ -751,7 +755,8 @@ address.add {
 		padding: 10px 0 0 0;
 		margin: 10px 0 0 0;
 		/*border-bottom: 1px #c5c5c5 dotted;*/
-		width: 100%;
+    width: 100%;
+    max-width: 320px;
 		text-align: left;
 
 	}
@@ -786,7 +791,8 @@ address.add {
   }
   .item{
     display: block;
-    width: 320px;
+    width: 100% ;
+    max-width: 320px;
     margin: 0 auto;
     padding: 0;
   }
@@ -818,6 +824,7 @@ footer
   footer {
     width: 100% ;
     max-width: 320px;
+    
   }
   .footerinner {
     background-color: #c7b299;
@@ -829,8 +836,10 @@ footer
     text-align: left;
   }
   .footerLeft {
-    margin-bottom: 20px;
-    width: 100%;
+    margin : 0 ;
+    width: 280px;
+    }
+    
   }
   .footerCenter {
     display: none;
