@@ -568,11 +568,9 @@ address.add {
 	header {
 		width: 100%;
 		max-width: 320px;
-		
 	  }
 	  .headinner {
 		  height: 52px;
-		  
 	  }
 	  .headernenu {
 		display: none;
@@ -744,12 +742,14 @@ address.add {
 
 
 	#topics{
-		width: 100%;
+    width: 320px;
+    margin: 0 auto;
 	}
 	.topicsinner {
     width: 320px !important;
     margin: 0 auto;
     padding: 0;
+    background-color: #f9f5e8;
   }
   .topicsinner h2.topicsTitle {
     color: #373737;
@@ -759,13 +759,7 @@ address.add {
     text-align: left;
     margin-bottom: 25px;
   }
-  .topicsinner .topicsinnerwhite {
-    width: 320px;
-    height: auto;
-    background-color: #f9f5e8;
-    margin: 0;
-    padding: 0;
-  }
+  
 	.topicsHeader{
     display: none;
   }
