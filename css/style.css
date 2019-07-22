@@ -746,32 +746,52 @@ address.add {
 	#topics{
 		width: 100%;
 	}
-	.topicsinner{
-		width: 100%;
-	}
-	.topicsTitle{
-		font-size: 24px;
-		font-family: Gotham-Medium;
-		color: #373737;
-	}
+	.topicsinner {
+    width: 320px !important;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .topicsinner h2.topicsTitle {
+    color: #373737;
+    font-size: 35px;
+    font-family: Gotham-Medium;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .topicsinner .topicsinnerwhite {
+    width: 320px;
+    height: auto;
+    background-color: #f9f5e8;
+    margin: 0;
+    padding: 0;
+  }
 	.topicsHeader{
-
-	}
-	.itemIntro img{
+    display: none;
+  }
+  .item{
+    display: block;
+    width: 320px;
+    margin: 0 auto;
+    padding: 0;
+  }
+	.itemIntro .itemIntro img{
 		width: 0.88050314%;
 		height: auto;
 	}
-	.topicsHeader ul{
-		
-	}
-	.topicsHeader li{
-		list-style-type: none;
-		float: left;
-	}
+	.item .itemIntro {
+    margin-right: 0;
+    background-color: #fff;
+    vertical-align: top;
+    margin-bottom: 29px;
+    position: relative;
+  }
+	.itemLinkBotton {
+    position: absolute;
+    top: 15px;
+    left: 0;
+  }
 	
-	.itemIntroNoteTime ul li{
-		float: none;
-	}
 
 
 
