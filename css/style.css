@@ -329,6 +329,13 @@ section#topics {
   border-bottom: none;
 }
 
+#instagram{
+  display: block;
+}
+#instagram-m{
+  display: none;
+}
+
 /**************
 footer
 ***************************/
@@ -414,6 +421,13 @@ footer .footerinner .footerCenter {
   font-family: YuGo, "游ゴシック", Yu Gothic, YuGothic;
 }
 footer .footerinner .footerCenter .footerinnerinfoShop {
+  margin: 0 0 12px 0;
+  font-size: 13px;
+  color: #3c3c3c;
+  font-weight: bold;
+  font-family: Gotham-Medium, Century Gothic, YuGo, "游ゴシック", Yu Gothic, YuGothic;
+}
+footer .footerinner .footerCenter .footerinnerinfoShop2 {
   margin: 0 0 12px 0;
   font-size: 13px;
   color: #3c3c3c;
@@ -522,6 +536,7 @@ ul.footerRightBoxUp {
   padding-bottom: 20px;
   border-bottom: 1px #fff dotted;
 }
+
 footer.footerinner .footerRight01Box ul.footerRightBoxBottom {
   margin-top: 39px;
   clear: both;
@@ -557,7 +572,8 @@ address.add {
 
 @media screen and (max-width:480px){
 	body {
-		width: 100%;
+    width: 100%;
+    max-width:320px;
 		margin: 0;
 		padding: 0;
 	}
@@ -742,11 +758,13 @@ address.add {
 
 
 	#topics{
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     margin: 0 auto;
 	}
 	.topicsinner {
-    width: 320px !important;
+    width: 100% !important;
+    max-width: 320px;
     margin: 0 auto;
     padding: 0;
     background-color: #f9f5e8;
@@ -759,7 +777,10 @@ address.add {
     text-align: left;
     margin-bottom: 25px;
   }
-  
+  .topicsinnerwhite{
+    width: 100% ;
+    max-width: 320px;
+  }
 	.topicsHeader{
     display: none;
   }
@@ -785,34 +806,50 @@ address.add {
     top: 15px;
     left: 0;
   }
-	
-
-
-
-
-
-
-
-
-
-
-
-
 	#instagram{
-		display:none;
-	}
-	footer{
-		display:none;
-	}
+    display: none;
+  }
+  #instagram-m{
+    display: block;
+  }
+/*******************
+footer
+***********************************/
+  footer {
+    width: 100% ;
+    max-width: 320px;
+  }
+  .footerinner {
+    background-color: #c7b299;
+    display: block;
+    width: 100% ;
+    max-width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+  }
+  .footerLeft {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .footerCenter {
+    display: none;
+  }
+  .footerRight01Box{
 
+  }
+  .footerinnerinfoShop2{
 
-
-
-
-
-
-
-
-
+  }
+  .footerRight01Box{
+    display: none;
+    
+  }
+  .footerRight02Box{
+    display: none;
+  }
+  .footerRight03Box {
+    display: none;
+  }
 
 } 
