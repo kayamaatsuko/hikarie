@@ -263,10 +263,12 @@ section#topics {
 
 .itemIntroNoteContents {
   color: #000;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   font-family: "游ゴシック体 Std";
   line-height: 25.09px;
+  margin-top: 18px;
+  clear: both;
 }
 .itemSalesday {
   margin-top: 17px;
