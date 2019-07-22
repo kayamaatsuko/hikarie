@@ -840,19 +840,19 @@ footer
     width: 280px;
     }
     
-  }
+  
   .footerCenter {
-    display: none;
+   display: none;
   }
   .footerRight01Box{
-
+    display: none;
   }
   .footerinnerinfoShop2{
-
+    display: none;
   }
   .footerRight01Box{
-    display: none;
     
+    display: none;
   }
   .footerRight02Box{
     display: none;
