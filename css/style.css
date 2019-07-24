@@ -783,7 +783,7 @@ li.nav09{
 		color: #c99a00;
 		flood-color: none;
 		float: none !important;
-		padding: 10px 20px 20px 20px;
+		padding: 10px 20px 30px 20px;
 		margin-bottom: 14px;
 		border: none;
     width: 100%;
@@ -795,10 +795,11 @@ li.nav09{
 		font-size: 14px;
 		color: #4d4d4d;
 		margin:0;
-		padding-left: 0;
+		padding-left: 20px;
     width: 100%;
     max-width: 320px;
-		text-align: left;
+    text-align: left;
+    
 	}
 	#information dd.last{
 		font-family: "游ゴシック体 Std";
@@ -861,6 +862,7 @@ li.nav09{
     vertical-align: top;
     /*margin-bottom: 29px;*/
     position: relative;
+    margin-left: 22px;
   }
 	.itemLinkBotton {
     position: absolute;
@@ -880,13 +882,29 @@ li.nav09{
     float: left;
   }
   .itemIntroNoteTime ul li.itemIntroNoteTimeDAY {
-    margin-right: 18px;
+    margin-right: 14px;
   }
   .itemIntroNoteTime ul li.itemIntroNoteTimeMARK {
-    margin-right: 4px;
+    margin-right: 2px;
   }
   .itemIntroNoteTime ul li.itemIntroNoteTimeSHOP {
-    margin-right: 8px;
+    margin-right: 4px;
+    font-size: 12px;
+  }
+  .itemIntroNoteContents {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "游ゴシック体 Std";
+    line-height: 20px;
+    margin-top: 18px;
+    clear: both;
+  }
+  .itemSalesday {
+    padding-bottom: 20px;
+    margin-top: 17px;
+    position: absolute;
+    top: 314px;
   }
   .topicsmoreBotton {
     margin: 0 auto;
@@ -976,11 +994,8 @@ footer-m
     font-size: 13px;
     margin-top: 18px;
   }
-  .footer-m02 .footer-m02Left .footerinnerinfoShopTime {
-    color: #fff;
-    font-size: 16px;
-    margin-top: 16px;
-  }
+  
+  
   .footer-m02 .footer-m02Left .footerinnerinfoShop2 {
     color: #3c3c3c;
     font-size: 13px;
@@ -1002,7 +1017,12 @@ footer-m
   .footer-m02 .footer-m02Right .footerinnerinfoShop6F {
     color: #3c3c3c;
     font-size: 13px;
-    margin-top: 15px;
+    margin-top: 13px;
+  }
+  .footerinnerinfoShopTime {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 13px;
   }
   .footer-m02 .footer-m02Right .footerinnerinfoShop7F {
     color: #3c3c3c;
@@ -1013,6 +1033,14 @@ footer-m
     color: #414141;
     font-size: 11px;
     margin-top: 8px;
+  }
+  .footer-m02 .footer-m02Left .footerinnerinfoShopBut {
+    color: #414141;
+    font-size: 11px;
+    margin-top: 8px;
+  }
+  .footerinnerinfoShopTime {
+    font-size: 16px;
   }
   .footer-m03 {
     overflow: hidden;
@@ -1029,6 +1057,7 @@ footer-m
     color: #3c3c3c;
     font-size: 14px;
     margin-top: 19px;
+    margin-bottom: 19px;
   }
   .footer-m03 .footer-m03Right {
     float: right;
@@ -1129,6 +1158,7 @@ footer-m
   .footer-m06 .sns img{
     width: 33px;
     height: auto;
+    margin-bottom: 20px;
   }
 
 
